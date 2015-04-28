@@ -74,16 +74,16 @@ override :'ruby-windows-devkit', version: "4.7.2-20130224-1151"
 override :rubygems,       version: "2.4.4"
 ######
 
-override :'test-kitchen', version: "v1.4.0.rc.1"
-override :'kitchen-vagrant', version: "v0.17.0.rc.1"
+override :'test-kitchen', version: "v1.4.0"
+override :'kitchen-vagrant', version: "v0.17.0"
 override :yajl,           version: "1.2.1"
 override :zlib,           version: "1.2.8"
 
-override :'chef-provisioning', version: "v1.1.0"
+override :'chef-provisioning', version: "v1.1.1"
 override :'chef-provisioning-fog', version: "v0.13.2"
 override :'chef-provisioning-vagrant', version: "v0.8.3"
 override :'chef-provisioning-azure', version: "v0.3.2"
-override :'chef-provisioning-aws', version: "v1.1.0"
+override :'chef-provisioning-aws', version: "v1.1.1"
 
 dependency "preparation"
 dependency "chefdk"
