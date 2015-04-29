@@ -17,7 +17,7 @@
 name "chefdk"
 default_version "master"
 
-source git: "git://github.com/chef/chef-dk.git"
+source git: "git://github.com/scassiba/chef-dk.git"
 
 relative_path "chef-dk"
 
